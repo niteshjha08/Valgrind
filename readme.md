@@ -1,3 +1,16 @@
+# Valgrind Exercise
+
+## Steps to build:
+- mkdir build && cd build
+- cmake ..
+- make
+
+## Valgrind
+`valgrind --leak-check=full ./app/shell-app`
+
+## KCachegrind profiler
+`valgrind --tool=callgrind ./app/shell-app`
+
 # C++ Boilerplate
 [![Build Status](https://travis-ci.org/dpiet/cpp-boilerplate.svg?branch=master)](https://travis-ci.org/dpiet/cpp-boilerplate)
 [![Coverage Status](https://coveralls.io/repos/github/dpiet/cpp-boilerplate/badge.svg?branch=master)](https://coveralls.io/github/dpiet/cpp-boilerplate?branch=master)
